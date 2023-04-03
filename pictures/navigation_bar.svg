@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="360"
+   height="80"
+   viewBox="0 0 360 80"
+   fill="none"
+   version="1.1"
+   id="svg176"
+   sodipodi:docname="navigation_bar.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview178"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="3.7305556"
+     inkscape:cx="96.366344"
+     inkscape:cy="39.940432"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g158" />
+  <g
+     filter="url(#filter0_b_13_1082)"
+     id="g158"
+     transform="translate(0,1.0722264)">
+    <path
+       d="M 0,15 C 0,6.71573 6.71573,0 15,0 h 330 c 8.284,0 15,6.71573 15,15 v 50 c 0,15.443548 6.17403,15 -15,15 H 15 C -4.1211976,80 0,83.964362 0,65 Z"
+       fill="black"
+       fill-opacity="0.5"
+       id="path156"
+       style="fill:#000000;fill-opacity:0.501961"
+       sodipodi:nodetypes="sssssssss" />
+  </g>
+  <mask
+     id="path-2-inside-1_13_1082"
+     fill="white">
+    <path
+       d="M0 15C0 6.71573 6.71573 0 15 0H345C353.284 0 360 6.71573 360 15V65C360 73.2843 353.284 80 345 80H15C6.71574 80 0 73.2843 0 65V15Z"
+       id="path160" />
+  </mask>
+  <path
+     d="M0 15C0 6.16344 7.16344 -1 16 -1H344C352.837 -1 360 6.16344 360 15C360 7.26801 353.284 1 345 1H15C6.71573 1 0 7.26801 0 15ZM360 80H0H360ZM0 80V0V80ZM360 0V80V0Z"
+     fill="#00CC66"
+     mask="url(#path-2-inside-1_13_1082)"
+     id="path163" />
+  <defs
+     id="defs174">
+    <filter
+       id="filter0_b_13_1082"
+       x="-10"
+       y="-10"
+       width="380"
+       height="100"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood165" />
+      <feGaussianBlur
+         in="BackgroundImageFix"
+         stdDeviation="5"
+         id="feGaussianBlur167" />
+      <feComposite
+         in2="SourceAlpha"
+         operator="in"
+         result="effect1_backgroundBlur_13_1082"
+         id="feComposite169" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="effect1_backgroundBlur_13_1082"
+         result="shape"
+         id="feBlend171" />
+    </filter>
+  </defs>
+</svg>

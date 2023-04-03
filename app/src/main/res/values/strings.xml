@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CutOn</string>
+    <string name="exit">Вхід</string>
+    <string name="phone_hint">Телефон</string>
+    <string name="password_hint">Пароль</string>
+    <string name="login_btn_text">Логін</string>
+    <string name="old_version">Застаріла версія додатку</string>
+    <string name="internet">Відсутне підключення до інтернету</string>
+    <string name="empty_fields">Поля порожні!</string>
+    <string name="failure_login_password">Не правильний логін чи пароль!</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="menu">Меню</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    
+    <string name="catalog_brands">Каталог брендів</string>
+</resources>
