@@ -18,6 +18,10 @@
         android:theme="@style/Theme.CutOnApplication"
         tools:targetApi="33">
         <activity
+            android:name=".presentation.ui.ExitActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
             android:name=".presentation.ui.HomeActivity"
             android:exported="false"
             android:label="@string/title_activity_home"

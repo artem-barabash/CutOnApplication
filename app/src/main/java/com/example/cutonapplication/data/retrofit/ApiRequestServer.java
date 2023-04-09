@@ -4,11 +4,15 @@ import com.example.cutonapplication.domain.entities.UserToken;
 import com.example.cutonapplication.domain.entities.Version;
 import com.example.cutonapplication.domain.entities.WorkResource;
 
+import okhttp3.ResponseBody;
 import retrofit2.Call;
+import retrofit2.Response;
+import retrofit2.http.DELETE;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
+import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 public interface ApiRequestServer {
@@ -29,5 +33,8 @@ public interface ApiRequestServer {
 
     @GET("app/version/latest/")
     Call<Version> getServerVersion(@Query("v") int version);
+
+    @DELETE("users/")
+    Call<ResponseBody> deleteUserSession(@Query("token") String token);
 
 }

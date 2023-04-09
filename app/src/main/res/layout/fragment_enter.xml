@@ -2,7 +2,7 @@
 <layout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    tools:context=".presentation.ui.fragments_login.ExitFragment">
+    tools:context=".presentation.ui.fragments_login.EnterFragment">
 
     <data>
         <variable
@@ -10,7 +10,7 @@
             type="com.example.cutonapplication.presentation.viewmodel.LoginViewModel" />
         <variable
             name="fragment"
-            type="com.example.cutonapplication.presentation.ui.fragments_login.ExitFragment" />
+            type="com.example.cutonapplication.presentation.ui.fragments_login.EnterFragment" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

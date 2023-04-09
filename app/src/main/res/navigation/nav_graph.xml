@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.example.cutonapplication.presentation.ui.fragments_home.StandartFragment"
+        android:name="com.example.cutonapplication.presentation.ui.fragments_home.StandardFragment"
         android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_standart">
+        tools:layout="@layout/fragment_standard">
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"

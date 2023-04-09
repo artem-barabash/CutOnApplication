@@ -8,7 +8,7 @@ import com.example.cutonapplication.R
 import com.example.cutonapplication.databinding.ActivityHomeBinding
 import com.example.cutonapplication.domain.entities.Account
 import com.example.cutonapplication.domain.use_cases.AccountFactory
-import com.example.cutonapplication.presentation.ui.fragments_home.StandartFragment
+import com.example.cutonapplication.presentation.ui.fragments_home.StandardFragment
 import com.example.cutonapplication.presentation.ui.fragments_home.CatalogFragment
 import com.example.cutonapplication.presentation.viewmodel.LoginViewModel.Companion.BALANCE
 import com.example.cutonapplication.presentation.viewmodel.LoginViewModel.Companion.BONUS_TITLE
@@ -48,11 +48,11 @@ class HomeActivity : AppCompatActivity() {
         preferences = this.getSharedPreferences(TEMP_USER_DATA, MODE_PRIVATE)
         getData()
 
-        replaceFragment(StandartFragment())
+        replaceFragment(StandardFragment())
         binding.bottomNavigationView.setOnItemSelectedListener {
 
             when(it.itemId){
-                R.id.itemHome -> replaceFragment(StandartFragment())
+                R.id.itemHome -> replaceFragment(StandardFragment())
                 R.id.itemBrands -> replaceFragment(CatalogFragment())
             }
 

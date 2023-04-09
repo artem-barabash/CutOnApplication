@@ -22,15 +22,15 @@ import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
 import androidx.lifecycle.lifecycleScope
 import com.example.cutonapplication.R
-import com.example.cutonapplication.databinding.FragmentExitBinding
+import com.example.cutonapplication.databinding.FragmentEnterBinding
 import com.example.cutonapplication.presentation.ui.HomeActivity
 import com.example.cutonapplication.presentation.ui.HomeActivity.Companion.CURRENT_ADDRESS
 import com.example.cutonapplication.presentation.ui.HomeActivity.Companion.CURRENT_TOKEN
 import com.example.cutonapplication.presentation.viewmodel.LoginViewModel
 
 
-class ExitFragment() : Fragment() {
-    private var _binding: FragmentExitBinding? = null
+class EnterFragment() : Fragment() {
+    private var _binding: FragmentEnterBinding? = null
 
     private val binding get() =_binding
 
@@ -52,7 +52,7 @@ class ExitFragment() : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        _binding = FragmentExitBinding.inflate(inflater, container, false)
+        _binding = FragmentEnterBinding.inflate(inflater, container, false)
 
         val root:View = binding!!.root
 
@@ -65,7 +65,7 @@ class ExitFragment() : Fragment() {
         binding?.apply {
             lifecycleOwner = viewLifecycleOwner
             viewModel = sharedViewModel
-            fragment = this@ExitFragment
+            fragment = this@EnterFragment
         }
         init()
 

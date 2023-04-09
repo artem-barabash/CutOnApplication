@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/exitFragment"
-        android:name="com.example.cutonapplication.presentation.ui.fragments_login.ExitFragment"
+        android:name="com.example.cutonapplication.presentation.ui.fragments_login.EnterFragment"
         android:label="fragment_exit"
-        tools:layout="@layout/fragment_exit" />
+        tools:layout="@layout/fragment_enter" />
 </navigation>

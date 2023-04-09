@@ -7,6 +7,7 @@ import com.example.cutonapplication.data.retrofit.ItemsRequest
 import com.example.cutonapplication.data.retrofit.RouteRequest
 import com.example.cutonapplication.domain.entities.Account
 import com.example.cutonapplication.domain.entities.Menu
+import okhttp3.ResponseBody
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -37,6 +38,23 @@ class HomeViewModel(val account: Account): ViewModel() {
         return  data
     }
 
+    fun deleteSession(exitAddress: String, exitToken: String) {
+        val routeRequest = RouteRequest(exitAddress)
 
+        routeRequest.apiRequest.deleteUserSession(exitToken)
+            .enqueue(object : Callback<ResponseBody>{
+                override fun onResponse(
+                    call: Call<ResponseBody>,
+                    response: Response<ResponseBody>
+                ) {
+                    if(response.isSuccessful){
+                        println("deleted")
+                    }
+                }
 
+                override fun onFailure(call: Call<ResponseBody>, t: Throwable) {
+                    println(t.message)
+                }
+            })
+    }
 }
